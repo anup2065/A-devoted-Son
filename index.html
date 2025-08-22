@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A Devoted Son – Presentation Webpage</title>
+  <style>
+    :root{
+      --bg:#0f172a;       /* slate-900 */
+      --card:#111827;     /* gray-900 */
+      --ink:#e5e7eb;      /* gray-200 */
+      --muted:#94a3b8;    /* slate-400 */
+      --accent:#38bdf8;   /* sky-400 */
+      --accent-2:#a78bfa; /* violet-400 */
+      --chip:#1f2937;     /* gray-800 */
+      --border:#1f2937;   /* gray-800 */
+    }
+    html,body{margin:0; padding:0; background:var(--bg); color:var(--ink); font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; line-height:1.6}
+    a{color:var(--accent)}
+    .container{max-width:1100px; margin:0 auto; padding:24px}
+    header{position:sticky; top:0; backdrop-filter: blur(8px); background:rgba(15,23,42,.7); border-bottom:1px solid var(--border); z-index:10}
+    header .inner{display:flex; gap:16px; align-items:center; justify-content:space-between; padding:14px 24px}
+    .brand{font-weight:700; letter-spacing:.3px}
+    nav{display:flex; gap:10px; flex-wrap:wrap}
+    nav a{font-size:14px; text-decoration:none; color:var(--ink); padding:8px 12px; border:1px solid var(--border); border-radius:999px}
+    nav a:hover{border-color:var(--accent); color:var(--accent)}
+    .title{font-size:clamp(28px, 5vw, 46px); font-weight:800; letter-spacing:.2px; margin:32px 0 6px}
+    .subtitle{color:var(--muted); margin-bottom:24px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01)); border:1px solid var(--border); border-radius:18px; padding:20px; box-shadow: 0 10px 30px rgba(0,0,0,.25);}
+    section{scroll-margin-top:96px; margin-bottom:26px}
+    h2{font-size:clamp(22px,3.5vw,30px); margin:8px 0 12px; border-left:4px solid var(--accent); padding-left:10px}
+    ul{padding-left:20px}
+    li{margin:6px 0}
+    .grid{display:grid; gap:16px}
+    @media(min-width:900px){
+      .grid-2{grid-template-columns: 1.1fr 1fr}
+      .grid-3{grid-template-columns: repeat(3, 1fr)}
+    }
+    figure{margin:0}
+    .imgwrap{aspect-ratio:16/9; width:100%; background:#0b1220; border:1px solid var(--border); border-radius:16px; overflow:hidden; display:grid; place-items:center}
+    .imgwrap img{width:100%; height:100%; object-fit:cover; display:block}
+    figcaption{font-size:13px; color:var(--muted); margin-top:6px}
+    .chips{display:flex; flex-wrap:wrap; gap:8px}
+    .chip{background:var(--chip); border:1px solid var(--border); padding:6px 10px; border-radius:999px; font-size:13px}
+    footer{border-top:1px solid var(--border); margin-top:30px; padding:18px 0; color:var(--muted); font-size:14px}
+    .btns{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px}
+    .btn{display:inline-block; text-decoration:none; padding:10px 14px; border-radius:12px; border:1px solid var(--border)}
+    .btn:hover{border-color:var(--accent); color:var(--accent)}
+    .kbd{font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; background:#0b1220; border:1px solid var(--border); padding:2px 6px; border-radius:6px}
+    .note{font-size:13px; color:var(--muted)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <div class="brand">A Devoted Son — Presentation</div>
+      <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#early">Early Life & Style</a>
+        <a href="#context">Context</a>
+        <a href="#setting">Setting & Characters</a>
+        <a href="#plot">Plot</a>
+        <a href="#summary">Summary</a>
+        <a href="#themes">Themes</a>
+        <a href="#devices">Literary Devices</a>
+        <a href="#connection">Connection</a>
+        <a href="#vocab">Vocabulary</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="title">Anita Desai — <span style="color:var(--accent-2)">“A Devoted Son”</span></h1>
+
+    <section id="intro" class="card">
+      <h2>Introduction of the Writer: Anita Desai</h2>
+      <ul>
+        <li>born on June 24, 1937, in Uttarakhand, India.</li>
+        <li>Real Name: Anita Mazumdar.</li>
+        <li>A famous Indian novelist and short story writer.</li>
+        <li>Was born to a German mother and an Indian father.</li>
+        <li>Because of her mixed background, she grew up learning German, Hindi, and English.</li>
+        <li>Completed her Bachelor of Arts from the University of Delhi.</li>
+        <li>Began publishing stories and novels after finishing her education.</li>
+        <li>Some of her well-known novels include <em>Cry, The Peacock</em> (1963), <em>Fire on the Mountain</em> (1977), and <em>In Custody</em> (1984).</li>
+      </ul>
+
+      <div class="grid grid-2" style="margin-top:14px">
+        <figure>
+          <div >
+            <!-- Replace the src below with your own image path -->
+            <img src="image1.jpg" alt="Cry, The Peacock (1963)" height="500" width="380"/>
+          </div>
+        </figure>
+        <figure>
+          <div >
+            <!-- Replace the src below with your own image path -->
+            <img src="image2.jpg" alt="Fire on the Mountain (1977)" height="500" width="380"/>
+          </div>
+        </figure>
+        <figure>
+          <div >
+            <!-- Replace the src below with your own image path -->
+            <img src="image3.jpg" alt="In Custody (1984)" height="500" width="380"/>
+          </div>
+        </figure>   
+      </div>
+    </section>
+
+    <section id="early" class="card">
+      <h2>Early Life and Writing Style</h2>
+      <ul>
+        <li>grew up in a multilingual environment, learning German, Hindi, and English.</li>
+        <li>This diverse background helped her develop a unique voice in literature.</li>
+        <li>She was interested in writing from an early age (and started writing stories and poems as a child.)</li>
+        <li>The common themes in her writings are struggle of women in the Indian society, family relationships and human psychology and emotions.</li>
+        <li>Her early work was influenced by Indian culture and family life.</li>
+        <li>She is known for her simple but powerful style of storytelling.</li>
+      </ul>
+    </section>
+
+    <section id="context" class="card">
+      <h2>Context of the Story – <em>A Devoted Son</em></h2>
+      <ul>
+        <li>The story ‘A Devoted Son’ is taken from Anita desai’s collection ‘The Complete Short Stories’.</li>
+        <li>set in a typical Indian middle-class family.</li>
+        <li>focuses on the relationship between parents and children.</li>
+        <li>The story shows how excessive love and duty can sometimes lead to conflict.</li>
+      </ul>
+    </section>
+
+    <section id="setting" class="card">
+      <h2>Setting &amp; Characters</h2>
+      <ul>
+        <li>The story takes place in India, likely in a small urban or semi-urban household.</li>
+        <li>The time period of this story appears to be in the modern post independence era where values are shifting between tradition and modernity.</li>
+      </ul>
+      <div class="chips" aria-label="Main Characters">
+        <span class="chip">Rakesh – A dedicated and obedient son.</span>
+        <span class="chip">Varma – Rakesh’s father.</span>
+        <span class="chip">Veena – Rakesh’s wife.</span>
+      </div>
+    </section>
+
+    <section id="plot" class="card">
+      <h2>Plot Explanation</h2>
+      <ul>
+        <li><strong>Exposition:</strong> Varma, an illiterate man, dreams of his son’s success. Rakesh excels, becomes a doctor.</li>
+        <li><strong>Rising Action:</strong> Rakesh honors his parents’ wishes, marries their choice, remains obedient.</li>
+        <li><strong>Climax:</strong> Rakesh controls his father’s diet strictly; Varma feels deprived.</li>
+        <li><strong>Falling Action:</strong> Relationship turns bitter; father resents Rakesh’s authority.</li>
+        <li><strong>Resolution:</strong> Varma dies discontented, showing irony of devotion turning oppressive.</li>
+      </ul>
+    </section>
+
+    <section id="summary" class="card">
+      <h2>Summary</h2>
+      <ul>
+        <li>Story of Rakesh, a brilliant doctor and obedient son.</li>
+        <li>Fulfills parents’ dreams, remains respectful.</li>
+        <li>When father grows old, Rakesh’s strict medical care creates conflict.</li>
+        <li>Devotion turns into control, father loses joy.</li>
+        <li>Highlights complexity of love, duty, and generational conflict.</li>
+      </ul>
+    </section>
+
+    <section id="themes" class="card">
+      <h2>Themes</h2>
+      <ul>
+        <li><strong>Parent–Child Relationship:</strong> Love shifts into conflict with age.</li>
+        <li><strong>Devotion vs. Control:</strong> Care becomes overbearing and restrictive.</li>
+        <li><strong>Aging &amp; Mortality:</strong> Old age; illness, loss of freedom, loneliness.</li>
+        <li><strong>Duty vs. Personal Freedom:</strong> Rakesh’s sense of responsibility conflicts with his father’s desire for joy and independence.</li>
+        <li><strong>Obsession</strong> → Rakesh’s excessive concern for health harms his father’s happiness.</li>
+      </ul>
+    </section>
+
+    <section id="devices" class="card">
+      <h2>Literary Devices</h2>
+      <ul>
+        <li><strong>Irony:</strong> The devoted son’s care causes his father’s unhappiness.</li>
+        <li><strong>Symbolism:</strong> Sweets and fried food represent small pleasures of life.</li>
+        <li><strong>Contrast:</strong> Shows the change from respect and obedience to strict control and tension.</li>
+        <li><strong>Foreshadowing:</strong> Early pride hints at later disappointment.</li>
+        <li><strong>Imagery:</strong> Vivid descriptions of emotions, food, and family life emphasize tension.</li>
+      </ul>
+    </section>
+
+    <section id="connection" class="card">
+      <h2>Connection with ‘The Oval Portrait’</h2>
+      <ul>
+        <li><strong>Love turning destructive:</strong> Devotion unintentionally causes harm.</li>
+        <li><strong>Sacrifice of happiness:</strong> Wife loses life; father loses simple joys.</li>
+        <li><strong>Irony:</strong> The title of both the stories.</li>
+        <li><strong>Obsession:</strong> Excessive focus (art or health) negatively affects loved ones.</li>
+      </ul>
+    </section>
+
+    <section id="vocab" class="card">
+      <h2>Vocabulary</h2>
+      <ul>
+        <li><strong>wunderkind:</strong> a person who achieves great success when relatively young</li>
+        <li><strong>sweetmeat:</strong> a small piece of sweet food, made of or covered in sugar</li>
+        <li><strong>encomiums:</strong> a piece of writing that praises someone or something highly</li>
+        <li><strong>desolate:</strong> feeling or showing great unhappiness or loneliness</li>
+        <li><strong>delicacy:</strong> fine food item <em>frugal (adj.):</em> simple and plain and costing little</li>
+        <li><strong>gastroenteritis:</strong> a disease triggered by the infection and inflammation of the digestive system</li>
+        <li><strong>supplant:</strong> replace</li>
+        <li><strong>hypocritical:</strong> characterized by behavior that contradicts what one claims to believe or feel</li>
+        <li><strong>Ambassador:</strong> an automobile manufactured by Hindustan Motors of India, in production from 1958</li>
+        <li><strong>hubbub:</strong> a loud confusing noise</li>
+        <li><strong>prophet:</strong> a person regarded as an inspired teache</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Quick actions</h2>
+      <div class="btns">
+        <a class="btn" href="#intro">Go to top</a>
+        <a class="btn" href="javascript:window.print()">Print / Save as PDF</a>
+      </div>
+    </section>
+
+
+  </main>
+
+  <script>
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        const id=a.getAttribute('href');
+        if(id.length>1){
+          e.preventDefault();
+          document.querySelector(id)?.scrollIntoView({behavior:'smooth'});
+        }
+      })
+    })
+  </script>
+</body>
+</html>
